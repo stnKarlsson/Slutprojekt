@@ -1,0 +1,47 @@
+
+@media screen and (max-width:468px){
+    
+    body.indexBody{
+        background-color: darkorchid;
+    }
+    .section div
+    {
+        flex-direction: column;
+        align-items: center ;
+    }
+    nav ul a
+    {
+        font-size: 16px;
+        
+    }
+    a#toggleButton
+    {
+        display:block;
+    }
+    nav ul.menu
+    {
+        display:none;
+    }
+    nav ul.show{
+        display: block;
+        text-decoration: none;
+    }
+    nav li
+    {
+        float: none;
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    button{
+        background-color: transparent;
+        border: 0;
+    }
+
+    
+    
+
+}
